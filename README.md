@@ -5,3 +5,5 @@ Initially it estimates the value and initializes the kalman gain , process noise
 After taking the reading from the sensor it weighs on previous estimate and measurement for the next estimate.
 If the error in estimate is more ,Kalman Gain is set in such a way that the next estimate is more near to the measurement reading and viceversa.
 Then the iteration is repeated.
+
+Reference link:-  https://youtu.be/CaCcOwJPytQ
